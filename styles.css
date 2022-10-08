@@ -1,0 +1,112 @@
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+.container-top {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    margin: -15px;
+    min-height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.header {
+    margin-left: 10vw;
+    display: flex;
+    font-size:16px;
+    font-weight: 1000;
+    font-family: Roboto;
+}
+
+.header-links {
+    display: flex;
+    margin-left: auto;
+    gap: 16px;
+    margin-right: 10vw;
+    font-weight: 300;
+}
+
+.title {
+    display: flex;
+    font-family: Roboto;
+    gap: 16px;
+    margin-bottom: 5vw;
+}
+
+.left-title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    max-width: 29vw;
+}
+
+.title-title {
+    font-size: 2.5vw;
+    font-weight: bolder;
+}
+
+.subtext {
+    color: gray;
+    font-size: 1vw;
+}
+
+.title-sign {
+    color: white;
+    padding: 1vw;
+    background-color: #3882F6;
+    font-size: 1.3vw;
+    max-width: 8vw;
+    max-height: 0.5vw;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5vw;
+    margin-left: -0.5vw;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.placeholder {
+    margin-left: auto;
+    margin-right: 10vw;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 8vw 10vw;
+    background-color: gray;
+}
+
+
+.images {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vw;
+    min-height: 28vw;
+}
+
+.title-two {
+    font-size: 2.5vw;
+    font-family: Roboto;
+    font-weight: bolder;
+}
+.img-subtext {
+    display: flex;
+    gap: 4vw;
+    margin-top: 5vw;
+}
+
+.img {
+    text-align: center;
+    font-size: 1.6vw;
+    max-width: 17vw;
+}
+
+.box {
+    min-height:11vw;
+    min-width: 7vw;
+    border: solid #3882F6;
+    border-radius:1vw ;
+}
